@@ -1,0 +1,1437 @@
+[17-Mar-2024 13:44:45 UTC] Blocks are up to date.
+[18-Mar-2024 07:45:42 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wpjd_options WHERE option_name = '_transient_timeout_jetpack_update_remote_package_last_query' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\Jetpack\Connection\Package_Version_Tracker->maybe_update_package_versions, Automattic\Jetpack\Connection\Package_Version_Tracker->is_rate_limiting, get_transient, get_option
+[18-Mar-2024 07:45:42 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wpjd_options WHERE option_name = '_transient_jetpack_update_remote_package_last_query' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\Jetpack\Connection\Package_Version_Tracker->maybe_update_package_versions, Automattic\Jetpack\Connection\Package_Version_Tracker->is_rate_limiting, get_transient, get_option
+[18-Mar-2024 07:45:42 UTC] WordPress database error Commands out of sync; you can't run this command now for query INSERT INTO `wpjd_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_timeout_jetpack_update_remote_package_last_query', '1710748002', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\Jetpack\Connection\Package_Version_Tracker->maybe_update_package_versions, Automattic\Jetpack\Connection\Package_Version_Tracker->is_rate_limiting, set_transient, add_option
+[18-Mar-2024 07:45:42 UTC] WordPress database error Commands out of sync; you can't run this command now for query INSERT INTO `wpjd_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_jetpack_update_remote_package_last_query', '1710747942', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\Jetpack\Connection\Package_Version_Tracker->maybe_update_package_versions, Automattic\Jetpack\Connection\Package_Version_Tracker->is_rate_limiting, set_transient, add_option
+[18-Mar-2024 07:45:42 UTC] WordPress database error Commands out of sync; you can't run this command now for query SHOW FULL COLUMNS FROM `wpjd_options` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Blocks\Assets\Api->update_script_data_cache, set_transient, update_option
+[18-Mar-2024 07:45:42 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wpjd_options WHERE option_name = 'jpsq_sync_checkout' made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\Jetpack\Sync\Sender->do_sync, Automattic\Jetpack\Sync\Dedicated_Sender::spawn_sync, Automattic\Jetpack\Sync\Queue->is_locked, Automattic\Jetpack\Sync\Queue->get_checkout_id
+[18-Mar-2024 07:45:42 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT count(*) FROM wpjd_jetpack_sync_queue WHERE queue_id = 'sync' made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\Jetpack\Sync\Sender->do_sync, Automattic\Jetpack\Sync\Dedicated_Sender::spawn_sync, Automattic\Jetpack\Sync\Queue->size, Automattic\Jetpack\Sync\Queue\Queue_Storage_Table->get_item_count
+[18-Mar-2024 07:45:42 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wpjd_options WHERE option_name = 'jetpack_sync_full_status' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\Jetpack\Sync\Sender->do_full_sync, Automattic\Jetpack\Sync\Modules\Full_Sync_Immediately->get_status, Jetpack_Options::get_raw_option
+[18-Mar-2024 17:47:04 UTC] Blocks are up to date.
+[19-Mar-2024 18:16:40 UTC] Sync process for Gutenberg Blocks has started.
+[19-Mar-2024 18:16:40 UTC] CATEGORY: Storing in option ast-block-templates-categories
+[19-Mar-2024 18:16:40 UTC] BLOCK: Requests count 8
+[19-Mar-2024 18:16:40 UTC] BLOCK: Importing request 1 ..
+[19-Mar-2024 18:16:40 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=1&wireframe=yes
+[19-Mar-2024 18:16:40 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[19-Mar-2024 18:16:40 UTC] BLOCK: Completed request 1
+[19-Mar-2024 18:16:40 UTC] BLOCK: Importing request 2 ..
+[19-Mar-2024 18:16:40 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=2&wireframe=yes
+[19-Mar-2024 18:16:40 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[19-Mar-2024 18:16:41 UTC] BLOCK: Completed request 2
+[19-Mar-2024 18:16:41 UTC] BLOCK: Importing request 3 ..
+[19-Mar-2024 18:16:41 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=3&wireframe=yes
+[19-Mar-2024 18:16:41 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[19-Mar-2024 18:16:41 UTC] BLOCK: Completed request 3
+[19-Mar-2024 18:16:41 UTC] BLOCK: Importing request 4 ..
+[19-Mar-2024 18:16:41 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=4&wireframe=yes
+[19-Mar-2024 18:16:41 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[19-Mar-2024 18:16:41 UTC] BLOCK: Completed request 4
+[19-Mar-2024 18:16:41 UTC] BLOCK: Importing request 5 ..
+[19-Mar-2024 18:16:41 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=5&wireframe=yes
+[19-Mar-2024 18:16:41 UTC] BLOCK: Storing in option ast-block-templates-blocks-5
+[19-Mar-2024 18:16:42 UTC] BLOCK: Completed request 5
+[19-Mar-2024 18:16:42 UTC] BLOCK: Importing request 6 ..
+[19-Mar-2024 18:16:42 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=6&wireframe=yes
+[19-Mar-2024 18:16:42 UTC] BLOCK: Storing in option ast-block-templates-blocks-6
+[19-Mar-2024 18:16:42 UTC] BLOCK: Completed request 6
+[19-Mar-2024 18:16:42 UTC] BLOCK: Importing request 7 ..
+[19-Mar-2024 18:16:42 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=7&wireframe=yes
+[19-Mar-2024 18:16:42 UTC] BLOCK: Storing in option ast-block-templates-blocks-7
+[19-Mar-2024 18:16:42 UTC] BLOCK: Completed request 7
+[19-Mar-2024 18:16:42 UTC] BLOCK: Importing request 8 ..
+[19-Mar-2024 18:16:42 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=8&wireframe=yes
+[19-Mar-2024 18:16:42 UTC] BLOCK: Storing in option ast-block-templates-blocks-8
+[19-Mar-2024 18:16:42 UTC] BLOCK: Completed request 8
+[19-Mar-2024 18:16:42 UTC] SITE: Getting Total Sites
+[19-Mar-2024 18:16:42 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg&per_page=30
+[19-Mar-2024 18:16:43 UTC] SITE: Request count 10
+[19-Mar-2024 18:16:43 UTC] SITE: Importing request 1 ..
+[19-Mar-2024 18:16:43 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=1&page-builder=gutenberg
+[19-Mar-2024 18:16:43 UTC] SITE: Storing in option ast-block-templates-sites-1
+[19-Mar-2024 18:16:43 UTC] SITE: Completed request 1
+[19-Mar-2024 18:16:43 UTC] SITE: Importing request 2 ..
+[19-Mar-2024 18:16:43 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=2&page-builder=gutenberg
+[19-Mar-2024 18:16:43 UTC] SITE: Storing in option ast-block-templates-sites-2
+[19-Mar-2024 18:16:43 UTC] SITE: Completed request 2
+[19-Mar-2024 18:16:43 UTC] SITE: Importing request 3 ..
+[19-Mar-2024 18:16:43 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=3&page-builder=gutenberg
+[19-Mar-2024 18:16:43 UTC] SITE: Storing in option ast-block-templates-sites-3
+[19-Mar-2024 18:16:43 UTC] SITE: Completed request 3
+[19-Mar-2024 18:16:43 UTC] SITE: Importing request 4 ..
+[19-Mar-2024 18:16:43 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=4&page-builder=gutenberg
+[19-Mar-2024 18:16:44 UTC] SITE: Storing in option ast-block-templates-sites-4
+[19-Mar-2024 18:16:44 UTC] SITE: Completed request 4
+[19-Mar-2024 18:16:44 UTC] SITE: Importing request 5 ..
+[19-Mar-2024 18:16:44 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=5&page-builder=gutenberg
+[19-Mar-2024 18:16:44 UTC] SITE: Storing in option ast-block-templates-sites-5
+[19-Mar-2024 18:16:44 UTC] SITE: Completed request 5
+[19-Mar-2024 18:16:44 UTC] SITE: Importing request 6 ..
+[19-Mar-2024 18:16:44 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=6&page-builder=gutenberg
+[19-Mar-2024 18:16:44 UTC] SITE: Storing in option ast-block-templates-sites-6
+[19-Mar-2024 18:16:44 UTC] SITE: Completed request 6
+[19-Mar-2024 18:16:44 UTC] SITE: Importing request 7 ..
+[19-Mar-2024 18:16:44 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=7&page-builder=gutenberg
+[19-Mar-2024 18:16:44 UTC] SITE: Storing in option ast-block-templates-sites-7
+[19-Mar-2024 18:16:44 UTC] SITE: Completed request 7
+[19-Mar-2024 18:16:44 UTC] SITE: Importing request 8 ..
+[19-Mar-2024 18:16:44 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=8&page-builder=gutenberg
+[19-Mar-2024 18:16:45 UTC] SITE: Storing in option ast-block-templates-sites-8
+[19-Mar-2024 18:16:45 UTC] SITE: Completed request 8
+[19-Mar-2024 18:16:45 UTC] SITE: Importing request 9 ..
+[19-Mar-2024 18:16:45 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=9&page-builder=gutenberg
+[19-Mar-2024 18:16:45 UTC] SITE: Storing in option ast-block-templates-sites-9
+[19-Mar-2024 18:16:45 UTC] SITE: Completed request 9
+[19-Mar-2024 18:16:45 UTC] SITE: Importing request 10 ..
+[19-Mar-2024 18:16:45 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=10&page-builder=gutenberg
+[19-Mar-2024 18:16:45 UTC] SITE: Storing in option ast-block-templates-sites-10
+[19-Mar-2024 18:16:45 UTC] SITE: Completed request 10
+[19-Mar-2024 18:16:45 UTC] Sync process for Gutenberg Blocks is done.
+[19-Mar-2024 18:16:45 UTC] BLOCK: Getting Server Custimizer CSS
+[19-Mar-2024 18:16:45 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/get-customizer-css
+[20-Mar-2024 08:50:03 UTC] Ошибка перепланировки события Cron для хука cartflows_ca_update_order_status_action, код ошибки: invalid_schedule, сообщение об ошибке: Планировщик событий не существует., данные: {"schedule":"every_fifteen_minutes","args":[],"interval":1200}
+[20-Mar-2024 10:26:40 UTC] Exception caught in Automattic\WooCommerce\Admin\Notes\Notes::get_note. Недопустимый комментарий администратора. Args: Array
+(
+    [0] => 69
+)
+..
+[20-Mar-2024 10:26:43 UTC] Exception caught in Automattic\WooCommerce\Admin\Notes\Notes::get_note. Недопустимый комментарий администратора. Args: Array
+(
+    [0] => 68
+)
+..
+[20-Mar-2024 10:26:44 UTC] Exception caught in Automattic\WooCommerce\Admin\Notes\Notes::get_note. Недопустимый комментарий администратора. Args: Array
+(
+    [0] => 67
+)
+..
+[20-Mar-2024 10:26:45 UTC] Exception caught in Automattic\WooCommerce\Admin\Notes\Notes::get_note. Недопустимый комментарий администратора. Args: Array
+(
+    [0] => 65
+)
+..
+[20-Mar-2024 10:46:19 UTC] Sync process for Gutenberg Blocks has started.
+[20-Mar-2024 10:46:19 UTC] CATEGORY: Storing in option ast-block-templates-categories
+[20-Mar-2024 10:46:19 UTC] BLOCK: Requests count 8
+[20-Mar-2024 10:46:19 UTC] BLOCK: Importing request 1 ..
+[20-Mar-2024 10:46:19 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=1&wireframe=yes
+[20-Mar-2024 10:46:19 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[20-Mar-2024 10:46:19 UTC] BLOCK: Completed request 1
+[20-Mar-2024 10:46:19 UTC] BLOCK: Importing request 2 ..
+[20-Mar-2024 10:46:19 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=2&wireframe=yes
+[20-Mar-2024 10:46:19 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[20-Mar-2024 10:46:20 UTC] BLOCK: Completed request 2
+[20-Mar-2024 10:46:20 UTC] BLOCK: Importing request 3 ..
+[20-Mar-2024 10:46:20 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=3&wireframe=yes
+[20-Mar-2024 10:46:20 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[20-Mar-2024 10:46:20 UTC] BLOCK: Completed request 3
+[20-Mar-2024 10:46:20 UTC] BLOCK: Importing request 4 ..
+[20-Mar-2024 10:46:20 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=4&wireframe=yes
+[20-Mar-2024 10:46:21 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[20-Mar-2024 10:46:21 UTC] BLOCK: Completed request 4
+[20-Mar-2024 10:46:21 UTC] BLOCK: Importing request 5 ..
+[20-Mar-2024 10:46:21 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=5&wireframe=yes
+[20-Mar-2024 10:46:21 UTC] BLOCK: Storing in option ast-block-templates-blocks-5
+[20-Mar-2024 10:46:21 UTC] BLOCK: Completed request 5
+[20-Mar-2024 10:46:21 UTC] BLOCK: Importing request 6 ..
+[20-Mar-2024 10:46:21 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=6&wireframe=yes
+[20-Mar-2024 10:46:21 UTC] BLOCK: Storing in option ast-block-templates-blocks-6
+[20-Mar-2024 10:46:21 UTC] BLOCK: Completed request 6
+[20-Mar-2024 10:46:21 UTC] BLOCK: Importing request 7 ..
+[20-Mar-2024 10:46:21 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=7&wireframe=yes
+[20-Mar-2024 10:46:22 UTC] BLOCK: Storing in option ast-block-templates-blocks-7
+[20-Mar-2024 10:46:22 UTC] BLOCK: Completed request 7
+[20-Mar-2024 10:46:22 UTC] BLOCK: Importing request 8 ..
+[20-Mar-2024 10:46:22 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=8&wireframe=yes
+[20-Mar-2024 10:46:22 UTC] BLOCK: Storing in option ast-block-templates-blocks-8
+[20-Mar-2024 10:46:22 UTC] BLOCK: Completed request 8
+[20-Mar-2024 10:46:22 UTC] SITE: Getting Total Sites
+[20-Mar-2024 10:46:22 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg&per_page=30
+[20-Mar-2024 10:46:22 UTC] SITE: Request count 10
+[20-Mar-2024 10:46:22 UTC] SITE: Importing request 1 ..
+[20-Mar-2024 10:46:22 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=1&page-builder=gutenberg
+[20-Mar-2024 10:46:23 UTC] SITE: Storing in option ast-block-templates-sites-1
+[20-Mar-2024 10:46:23 UTC] SITE: Completed request 1
+[20-Mar-2024 10:46:23 UTC] SITE: Importing request 2 ..
+[20-Mar-2024 10:46:23 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=2&page-builder=gutenberg
+[20-Mar-2024 10:46:23 UTC] SITE: Storing in option ast-block-templates-sites-2
+[20-Mar-2024 10:46:23 UTC] SITE: Completed request 2
+[20-Mar-2024 10:46:23 UTC] SITE: Importing request 3 ..
+[20-Mar-2024 10:46:23 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=3&page-builder=gutenberg
+[20-Mar-2024 10:46:23 UTC] SITE: Storing in option ast-block-templates-sites-3
+[20-Mar-2024 10:46:23 UTC] SITE: Completed request 3
+[20-Mar-2024 10:46:23 UTC] SITE: Importing request 4 ..
+[20-Mar-2024 10:46:23 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=4&page-builder=gutenberg
+[20-Mar-2024 10:46:24 UTC] SITE: Storing in option ast-block-templates-sites-4
+[20-Mar-2024 10:46:24 UTC] SITE: Completed request 4
+[20-Mar-2024 10:46:24 UTC] SITE: Importing request 5 ..
+[20-Mar-2024 10:46:24 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=5&page-builder=gutenberg
+[20-Mar-2024 10:46:24 UTC] SITE: Storing in option ast-block-templates-sites-5
+[20-Mar-2024 10:46:24 UTC] SITE: Completed request 5
+[20-Mar-2024 10:46:24 UTC] SITE: Importing request 6 ..
+[20-Mar-2024 10:46:24 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=6&page-builder=gutenberg
+[20-Mar-2024 10:46:24 UTC] SITE: Storing in option ast-block-templates-sites-6
+[20-Mar-2024 10:46:24 UTC] SITE: Completed request 6
+[20-Mar-2024 10:46:24 UTC] SITE: Importing request 7 ..
+[20-Mar-2024 10:46:24 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=7&page-builder=gutenberg
+[20-Mar-2024 10:46:24 UTC] SITE: Storing in option ast-block-templates-sites-7
+[20-Mar-2024 10:46:24 UTC] SITE: Completed request 7
+[20-Mar-2024 10:46:24 UTC] SITE: Importing request 8 ..
+[20-Mar-2024 10:46:24 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=8&page-builder=gutenberg
+[20-Mar-2024 10:46:25 UTC] SITE: Storing in option ast-block-templates-sites-8
+[20-Mar-2024 10:46:25 UTC] SITE: Completed request 8
+[20-Mar-2024 10:46:25 UTC] SITE: Importing request 9 ..
+[20-Mar-2024 10:46:25 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=9&page-builder=gutenberg
+[20-Mar-2024 10:46:25 UTC] SITE: Storing in option ast-block-templates-sites-9
+[20-Mar-2024 10:46:25 UTC] SITE: Completed request 9
+[20-Mar-2024 10:46:25 UTC] SITE: Importing request 10 ..
+[20-Mar-2024 10:46:25 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=10&page-builder=gutenberg
+[20-Mar-2024 10:46:25 UTC] SITE: Storing in option ast-block-templates-sites-10
+[20-Mar-2024 10:46:25 UTC] SITE: Completed request 10
+[20-Mar-2024 10:46:25 UTC] Sync process for Gutenberg Blocks is done.
+[20-Mar-2024 10:46:25 UTC] BLOCK: Getting Server Custimizer CSS
+[20-Mar-2024 10:46:25 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/get-customizer-css
+[20-Mar-2024 10:53:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[20-Mar-2024 10:58:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 617
+[20-Mar-2024 11:03:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[20-Mar-2024 11:08:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[20-Mar-2024 11:13:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 617
+[20-Mar-2024 11:18:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 617
+[20-Mar-2024 11:23:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[20-Mar-2024 11:28:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[20-Mar-2024 11:33:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[20-Mar-2024 11:38:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[20-Mar-2024 11:43:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[20-Mar-2024 11:48:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[20-Mar-2024 11:53:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[20-Mar-2024 11:58:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[20-Mar-2024 12:04:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[20-Mar-2024 12:08:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[20-Mar-2024 12:13:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[20-Mar-2024 12:18:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[20-Mar-2024 12:23:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[20-Mar-2024 12:29:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[20-Mar-2024 12:33:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 888
+[20-Mar-2024 12:39:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[20-Mar-2024 12:43:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 162
+[20-Mar-2024 12:49:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[20-Mar-2024 12:54:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[20-Mar-2024 12:59:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 617
+[20-Mar-2024 13:03:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[20-Mar-2024 13:09:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[20-Mar-2024 13:13:37 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[20-Mar-2024 13:18:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 617
+[20-Mar-2024 13:24:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[20-Mar-2024 13:28:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[20-Mar-2024 13:33:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[20-Mar-2024 16:05:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 888
+[20-Mar-2024 16:51:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[20-Mar-2024 17:37:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 617
+[20-Mar-2024 17:50:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[20-Mar-2024 17:54:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[20-Mar-2024 18:10:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[20-Mar-2024 19:51:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 617
+[20-Mar-2024 21:26:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[20-Mar-2024 22:26:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[20-Mar-2024 22:34:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[21-Mar-2024 01:57:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 617
+[21-Mar-2024 02:48:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[21-Mar-2024 03:17:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[21-Mar-2024 03:19:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[21-Mar-2024 04:10:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[21-Mar-2024 04:58:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[21-Mar-2024 05:03:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[21-Mar-2024 06:21:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[21-Mar-2024 06:23:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[21-Mar-2024 06:28:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[21-Mar-2024 06:33:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[21-Mar-2024 06:38:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 888
+[21-Mar-2024 06:43:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[21-Mar-2024 06:48:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[21-Mar-2024 06:53:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[21-Mar-2024 06:58:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[21-Mar-2024 07:03:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[21-Mar-2024 07:08:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[21-Mar-2024 07:13:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[21-Mar-2024 07:18:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[21-Mar-2024 07:23:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[21-Mar-2024 07:28:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 617
+[21-Mar-2024 07:33:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[21-Mar-2024 07:38:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[21-Mar-2024 07:43:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[21-Mar-2024 07:48:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 888
+[21-Mar-2024 07:53:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[21-Mar-2024 07:58:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 617
+[21-Mar-2024 12:42:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[21-Mar-2024 12:52:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[21-Mar-2024 12:57:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[21-Mar-2024 13:01:06 UTC] Sync process for Gutenberg Blocks has started.
+[21-Mar-2024 13:01:06 UTC] CATEGORY: Storing in option ast-block-templates-categories
+[21-Mar-2024 13:01:06 UTC] BLOCK: Requests count 7
+[21-Mar-2024 13:01:06 UTC] BLOCK: Importing request 1 ..
+[21-Mar-2024 13:01:06 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=1&wireframe=yes
+[21-Mar-2024 13:01:07 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[21-Mar-2024 13:01:07 UTC] BLOCK: Completed request 1
+[21-Mar-2024 13:01:07 UTC] BLOCK: Importing request 2 ..
+[21-Mar-2024 13:01:07 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=2&wireframe=yes
+[21-Mar-2024 13:01:07 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[21-Mar-2024 13:01:07 UTC] BLOCK: Completed request 2
+[21-Mar-2024 13:01:07 UTC] BLOCK: Importing request 3 ..
+[21-Mar-2024 13:01:07 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=3&wireframe=yes
+[21-Mar-2024 13:01:08 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[21-Mar-2024 13:01:08 UTC] BLOCK: Completed request 3
+[21-Mar-2024 13:01:08 UTC] BLOCK: Importing request 4 ..
+[21-Mar-2024 13:01:08 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=4&wireframe=yes
+[21-Mar-2024 13:01:08 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[21-Mar-2024 13:01:08 UTC] BLOCK: Completed request 4
+[21-Mar-2024 13:01:08 UTC] BLOCK: Importing request 5 ..
+[21-Mar-2024 13:01:08 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=5&wireframe=yes
+[21-Mar-2024 13:01:08 UTC] BLOCK: Storing in option ast-block-templates-blocks-5
+[21-Mar-2024 13:01:08 UTC] BLOCK: Completed request 5
+[21-Mar-2024 13:01:08 UTC] BLOCK: Importing request 6 ..
+[21-Mar-2024 13:01:08 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=6&wireframe=yes
+[21-Mar-2024 13:01:09 UTC] BLOCK: Storing in option ast-block-templates-blocks-6
+[21-Mar-2024 13:01:09 UTC] BLOCK: Completed request 6
+[21-Mar-2024 13:01:09 UTC] BLOCK: Importing request 7 ..
+[21-Mar-2024 13:01:09 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=7&wireframe=yes
+[21-Mar-2024 13:01:09 UTC] BLOCK: Storing in option ast-block-templates-blocks-7
+[21-Mar-2024 13:01:09 UTC] BLOCK: Completed request 7
+[21-Mar-2024 13:01:09 UTC] SITE: Getting Total Sites
+[21-Mar-2024 13:01:09 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg&per_page=30
+[21-Mar-2024 13:01:09 UTC] SITE: Request count 10
+[21-Mar-2024 13:01:09 UTC] SITE: Importing request 1 ..
+[21-Mar-2024 13:01:09 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=1&page-builder=gutenberg
+[21-Mar-2024 13:01:09 UTC] SITE: Storing in option ast-block-templates-sites-1
+[21-Mar-2024 13:01:09 UTC] SITE: Completed request 1
+[21-Mar-2024 13:01:09 UTC] SITE: Importing request 2 ..
+[21-Mar-2024 13:01:09 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=2&page-builder=gutenberg
+[21-Mar-2024 13:01:10 UTC] SITE: Storing in option ast-block-templates-sites-2
+[21-Mar-2024 13:01:10 UTC] SITE: Completed request 2
+[21-Mar-2024 13:01:10 UTC] SITE: Importing request 3 ..
+[21-Mar-2024 13:01:10 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=3&page-builder=gutenberg
+[21-Mar-2024 13:01:10 UTC] SITE: Storing in option ast-block-templates-sites-3
+[21-Mar-2024 13:01:10 UTC] SITE: Completed request 3
+[21-Mar-2024 13:01:10 UTC] SITE: Importing request 4 ..
+[21-Mar-2024 13:01:10 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=4&page-builder=gutenberg
+[21-Mar-2024 13:01:10 UTC] SITE: Storing in option ast-block-templates-sites-4
+[21-Mar-2024 13:01:10 UTC] SITE: Completed request 4
+[21-Mar-2024 13:01:10 UTC] SITE: Importing request 5 ..
+[21-Mar-2024 13:01:10 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=5&page-builder=gutenberg
+[21-Mar-2024 13:01:10 UTC] SITE: Storing in option ast-block-templates-sites-5
+[21-Mar-2024 13:01:10 UTC] SITE: Completed request 5
+[21-Mar-2024 13:01:10 UTC] SITE: Importing request 6 ..
+[21-Mar-2024 13:01:10 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=6&page-builder=gutenberg
+[21-Mar-2024 13:01:11 UTC] SITE: Storing in option ast-block-templates-sites-6
+[21-Mar-2024 13:01:11 UTC] SITE: Completed request 6
+[21-Mar-2024 13:01:11 UTC] SITE: Importing request 7 ..
+[21-Mar-2024 13:01:11 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=7&page-builder=gutenberg
+[21-Mar-2024 13:01:11 UTC] SITE: Storing in option ast-block-templates-sites-7
+[21-Mar-2024 13:01:11 UTC] SITE: Completed request 7
+[21-Mar-2024 13:01:11 UTC] SITE: Importing request 8 ..
+[21-Mar-2024 13:01:11 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=8&page-builder=gutenberg
+[21-Mar-2024 13:01:11 UTC] SITE: Storing in option ast-block-templates-sites-8
+[21-Mar-2024 13:01:11 UTC] SITE: Completed request 8
+[21-Mar-2024 13:01:11 UTC] SITE: Importing request 9 ..
+[21-Mar-2024 13:01:11 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=9&page-builder=gutenberg
+[21-Mar-2024 13:01:11 UTC] SITE: Storing in option ast-block-templates-sites-9
+[21-Mar-2024 13:01:11 UTC] SITE: Completed request 9
+[21-Mar-2024 13:01:11 UTC] SITE: Importing request 10 ..
+[21-Mar-2024 13:01:11 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=10&page-builder=gutenberg
+[21-Mar-2024 13:01:12 UTC] SITE: Storing in option ast-block-templates-sites-10
+[21-Mar-2024 13:01:12 UTC] SITE: Completed request 10
+[21-Mar-2024 13:01:12 UTC] Sync process for Gutenberg Blocks is done.
+[21-Mar-2024 13:01:12 UTC] BLOCK: Getting Server Custimizer CSS
+[21-Mar-2024 13:01:12 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/get-customizer-css
+[21-Mar-2024 13:01:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[21-Mar-2024 13:03:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[21-Mar-2024 13:30:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[21-Mar-2024 16:46:35 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[21-Mar-2024 16:58:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[21-Mar-2024 19:29:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 162
+[21-Mar-2024 19:50:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 617
+[21-Mar-2024 20:25:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[21-Mar-2024 20:28:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[21-Mar-2024 20:33:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[21-Mar-2024 20:38:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 00:15:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 00:24:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[22-Mar-2024 00:28:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[22-Mar-2024 06:53:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[22-Mar-2024 07:07:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 07:13:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 07:18:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 07:23:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[22-Mar-2024 08:48:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 08:53:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 10:23:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[22-Mar-2024 10:28:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[22-Mar-2024 11:18:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[22-Mar-2024 12:33:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[22-Mar-2024 13:41:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 13:42:33 UTC] Sync process for Gutenberg Blocks has started.
+[22-Mar-2024 13:42:33 UTC] CATEGORY: Storing in option ast-block-templates-categories
+[22-Mar-2024 13:42:33 UTC] BLOCK: Requests count 7
+[22-Mar-2024 13:42:33 UTC] BLOCK: Importing request 1 ..
+[22-Mar-2024 13:42:33 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=1&wireframe=yes
+[22-Mar-2024 13:42:33 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[22-Mar-2024 13:42:33 UTC] BLOCK: Completed request 1
+[22-Mar-2024 13:42:33 UTC] BLOCK: Importing request 2 ..
+[22-Mar-2024 13:42:33 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=2&wireframe=yes
+[22-Mar-2024 13:42:34 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[22-Mar-2024 13:42:34 UTC] BLOCK: Completed request 2
+[22-Mar-2024 13:42:34 UTC] BLOCK: Importing request 3 ..
+[22-Mar-2024 13:42:34 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=3&wireframe=yes
+[22-Mar-2024 13:42:34 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[22-Mar-2024 13:42:34 UTC] BLOCK: Completed request 3
+[22-Mar-2024 13:42:34 UTC] BLOCK: Importing request 4 ..
+[22-Mar-2024 13:42:34 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=4&wireframe=yes
+[22-Mar-2024 13:42:35 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[22-Mar-2024 13:42:35 UTC] BLOCK: Completed request 4
+[22-Mar-2024 13:42:35 UTC] BLOCK: Importing request 5 ..
+[22-Mar-2024 13:42:35 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=5&wireframe=yes
+[22-Mar-2024 13:42:35 UTC] BLOCK: Storing in option ast-block-templates-blocks-5
+[22-Mar-2024 13:42:35 UTC] BLOCK: Completed request 5
+[22-Mar-2024 13:42:35 UTC] BLOCK: Importing request 6 ..
+[22-Mar-2024 13:42:35 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=6&wireframe=yes
+[22-Mar-2024 13:42:35 UTC] BLOCK: Storing in option ast-block-templates-blocks-6
+[22-Mar-2024 13:42:35 UTC] BLOCK: Completed request 6
+[22-Mar-2024 13:42:35 UTC] BLOCK: Importing request 7 ..
+[22-Mar-2024 13:42:35 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=7&wireframe=yes
+[22-Mar-2024 13:42:36 UTC] BLOCK: Storing in option ast-block-templates-blocks-7
+[22-Mar-2024 13:42:36 UTC] BLOCK: Completed request 7
+[22-Mar-2024 13:42:36 UTC] SITE: Getting Total Sites
+[22-Mar-2024 13:42:36 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg&per_page=30
+[22-Mar-2024 13:42:36 UTC] SITE: Request count 10
+[22-Mar-2024 13:42:36 UTC] SITE: Importing request 1 ..
+[22-Mar-2024 13:42:36 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=1&page-builder=gutenberg
+[22-Mar-2024 13:42:36 UTC] SITE: Storing in option ast-block-templates-sites-1
+[22-Mar-2024 13:42:36 UTC] SITE: Completed request 1
+[22-Mar-2024 13:42:36 UTC] SITE: Importing request 2 ..
+[22-Mar-2024 13:42:36 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=2&page-builder=gutenberg
+[22-Mar-2024 13:42:36 UTC] SITE: Storing in option ast-block-templates-sites-2
+[22-Mar-2024 13:42:36 UTC] SITE: Completed request 2
+[22-Mar-2024 13:42:36 UTC] SITE: Importing request 3 ..
+[22-Mar-2024 13:42:36 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=3&page-builder=gutenberg
+[22-Mar-2024 13:42:37 UTC] SITE: Storing in option ast-block-templates-sites-3
+[22-Mar-2024 13:42:37 UTC] SITE: Completed request 3
+[22-Mar-2024 13:42:37 UTC] SITE: Importing request 4 ..
+[22-Mar-2024 13:42:37 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=4&page-builder=gutenberg
+[22-Mar-2024 13:42:37 UTC] SITE: Storing in option ast-block-templates-sites-4
+[22-Mar-2024 13:42:37 UTC] SITE: Completed request 4
+[22-Mar-2024 13:42:37 UTC] SITE: Importing request 5 ..
+[22-Mar-2024 13:42:37 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=5&page-builder=gutenberg
+[22-Mar-2024 13:42:37 UTC] SITE: Storing in option ast-block-templates-sites-5
+[22-Mar-2024 13:42:37 UTC] SITE: Completed request 5
+[22-Mar-2024 13:42:37 UTC] SITE: Importing request 6 ..
+[22-Mar-2024 13:42:37 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=6&page-builder=gutenberg
+[22-Mar-2024 13:42:37 UTC] SITE: Storing in option ast-block-templates-sites-6
+[22-Mar-2024 13:42:37 UTC] SITE: Completed request 6
+[22-Mar-2024 13:42:37 UTC] SITE: Importing request 7 ..
+[22-Mar-2024 13:42:37 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=7&page-builder=gutenberg
+[22-Mar-2024 13:42:38 UTC] SITE: Storing in option ast-block-templates-sites-7
+[22-Mar-2024 13:42:38 UTC] SITE: Completed request 7
+[22-Mar-2024 13:42:38 UTC] SITE: Importing request 8 ..
+[22-Mar-2024 13:42:38 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=8&page-builder=gutenberg
+[22-Mar-2024 13:42:38 UTC] SITE: Storing in option ast-block-templates-sites-8
+[22-Mar-2024 13:42:38 UTC] SITE: Completed request 8
+[22-Mar-2024 13:42:38 UTC] SITE: Importing request 9 ..
+[22-Mar-2024 13:42:38 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=9&page-builder=gutenberg
+[22-Mar-2024 13:42:38 UTC] SITE: Storing in option ast-block-templates-sites-9
+[22-Mar-2024 13:42:38 UTC] SITE: Completed request 9
+[22-Mar-2024 13:42:38 UTC] SITE: Importing request 10 ..
+[22-Mar-2024 13:42:38 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=10&page-builder=gutenberg
+[22-Mar-2024 13:42:38 UTC] SITE: Storing in option ast-block-templates-sites-10
+[22-Mar-2024 13:42:38 UTC] SITE: Completed request 10
+[22-Mar-2024 13:42:38 UTC] Sync process for Gutenberg Blocks is done.
+[22-Mar-2024 13:42:38 UTC] BLOCK: Getting Server Custimizer CSS
+[22-Mar-2024 13:42:38 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/get-customizer-css
+[22-Mar-2024 13:43:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 13:48:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[22-Mar-2024 13:54:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 13:58:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 888
+[22-Mar-2024 14:03:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 14:09:07 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM dvaq6u5_options WHERE option_name = 'wc_pending_batch_processes' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->__call, call_user_func_array, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->maybe_reset_state, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->is_enqueued, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->get_enqueued_processors, get_option
+[22-Mar-2024 14:09:07 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM dvaq6u5_options WHERE option_name = 'woocommerce_hpos_legacy_data_cleanup_in_progress' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->__call, call_user_func_array, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->maybe_reset_state, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->is_flag_set, get_option
+[22-Mar-2024 14:09:07 UTC] WordPress database error Commands out of sync; you can't run this command now for query SHOW FULL COLUMNS FROM `dvaq6u5_options` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Blocks\Assets\Api->update_script_data_cache, set_transient, update_option
+[22-Mar-2024 14:09:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 14:13:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[22-Mar-2024 14:18:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 14:23:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 14:28:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 14:34:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 14:38:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 14:44:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 16:25:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[22-Mar-2024 20:00:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 162
+[22-Mar-2024 20:14:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 20:27:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 20:38:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 20:53:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 21:05:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[22-Mar-2024 21:18:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 21:31:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 21:45:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 21:58:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 22:11:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 22:24:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 22:36:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 22:48:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 888
+[22-Mar-2024 23:00:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[22-Mar-2024 23:11:37 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[22-Mar-2024 23:23:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[22-Mar-2024 23:28:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 162
+[23-Mar-2024 00:01:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 00:11:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 00:20:26 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[23-Mar-2024 00:29:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 00:39:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 00:48:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 00:57:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[23-Mar-2024 01:06:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 162
+[23-Mar-2024 01:08:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 01:14:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 888
+[23-Mar-2024 01:23:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 01:31:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 888
+[23-Mar-2024 01:40:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 01:48:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 01:57:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 02:05:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 02:08:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 02:13:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 02:23:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 617
+[23-Mar-2024 02:32:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[23-Mar-2024 02:41:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[23-Mar-2024 02:50:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[23-Mar-2024 02:59:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 617
+[23-Mar-2024 03:09:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[23-Mar-2024 03:52:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 04:29:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 05:02:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 05:30:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 05:37:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 06:11:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[23-Mar-2024 06:53:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[23-Mar-2024 06:54:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[23-Mar-2024 07:33:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 07:43:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 07:52:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 09:57:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[23-Mar-2024 10:05:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[23-Mar-2024 18:55:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[23-Mar-2024 19:02:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[23-Mar-2024 21:33:31 UTC] Blocks are up to date.
+[23-Mar-2024 21:34:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[24-Mar-2024 06:53:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[24-Mar-2024 08:51:18 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM dvaq6u5_options WHERE option_name = 'wc_pending_batch_processes' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->__call, call_user_func_array, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->maybe_reset_state, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->is_enqueued, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->get_enqueued_processors, get_option
+[24-Mar-2024 08:51:18 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM dvaq6u5_options WHERE option_name = 'woocommerce_hpos_legacy_data_cleanup_in_progress' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->__call, call_user_func_array, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->maybe_reset_state, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->is_flag_set, get_option
+[24-Mar-2024 08:51:18 UTC] WordPress database error Commands out of sync; you can't run this command now for query SHOW FULL COLUMNS FROM `dvaq6u5_options` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Blocks\Assets\Api->update_script_data_cache, set_transient, update_option
+[24-Mar-2024 09:10:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[24-Mar-2024 09:16:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[24-Mar-2024 11:20:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[24-Mar-2024 16:23:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[24-Mar-2024 16:51:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[24-Mar-2024 17:01:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[24-Mar-2024 18:10:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 617
+[25-Mar-2024 02:43:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[25-Mar-2024 04:42:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[25-Mar-2024 04:46:52 UTC] Blocks are up to date.
+[25-Mar-2024 04:47:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[25-Mar-2024 04:48:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[25-Mar-2024 05:46:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[25-Mar-2024 06:52:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[25-Mar-2024 06:54:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[25-Mar-2024 07:47:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[25-Mar-2024 11:23:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[25-Mar-2024 11:28:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[25-Mar-2024 11:33:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[25-Mar-2024 11:38:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[25-Mar-2024 19:06:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[25-Mar-2024 20:24:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[25-Mar-2024 20:39:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[25-Mar-2024 21:19:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[25-Mar-2024 22:37:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[25-Mar-2024 22:54:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 617
+[25-Mar-2024 23:55:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[26-Mar-2024 00:18:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[26-Mar-2024 01:11:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[26-Mar-2024 04:40:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[26-Mar-2024 05:41:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[26-Mar-2024 06:52:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[26-Mar-2024 06:55:05 UTC] Sync process for Gutenberg Blocks has started.
+[26-Mar-2024 06:55:05 UTC] CATEGORY: Storing in option ast-block-templates-categories
+[26-Mar-2024 06:55:05 UTC] BLOCK: Requests count 7
+[26-Mar-2024 06:55:05 UTC] BLOCK: Importing request 1 ..
+[26-Mar-2024 06:55:05 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=1&wireframe=yes
+[26-Mar-2024 06:55:05 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[26-Mar-2024 06:55:05 UTC] BLOCK: Completed request 1
+[26-Mar-2024 06:55:05 UTC] BLOCK: Importing request 2 ..
+[26-Mar-2024 06:55:05 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=2&wireframe=yes
+[26-Mar-2024 06:55:05 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[26-Mar-2024 06:55:06 UTC] BLOCK: Completed request 2
+[26-Mar-2024 06:55:06 UTC] BLOCK: Importing request 3 ..
+[26-Mar-2024 06:55:06 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=3&wireframe=yes
+[26-Mar-2024 06:55:06 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[26-Mar-2024 06:55:06 UTC] BLOCK: Completed request 3
+[26-Mar-2024 06:55:06 UTC] BLOCK: Importing request 4 ..
+[26-Mar-2024 06:55:06 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=4&wireframe=yes
+[26-Mar-2024 06:55:06 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[26-Mar-2024 06:55:06 UTC] BLOCK: Completed request 4
+[26-Mar-2024 06:55:06 UTC] BLOCK: Importing request 5 ..
+[26-Mar-2024 06:55:06 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=5&wireframe=yes
+[26-Mar-2024 06:55:07 UTC] BLOCK: Storing in option ast-block-templates-blocks-5
+[26-Mar-2024 06:55:07 UTC] BLOCK: Completed request 5
+[26-Mar-2024 06:55:07 UTC] BLOCK: Importing request 6 ..
+[26-Mar-2024 06:55:07 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=6&wireframe=yes
+[26-Mar-2024 06:55:07 UTC] BLOCK: Storing in option ast-block-templates-blocks-6
+[26-Mar-2024 06:55:07 UTC] BLOCK: Completed request 6
+[26-Mar-2024 06:55:07 UTC] BLOCK: Importing request 7 ..
+[26-Mar-2024 06:55:07 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=7&wireframe=yes
+[26-Mar-2024 06:55:07 UTC] BLOCK: Storing in option ast-block-templates-blocks-7
+[26-Mar-2024 06:55:07 UTC] BLOCK: Completed request 7
+[26-Mar-2024 06:55:07 UTC] SITE: Getting Total Sites
+[26-Mar-2024 06:55:07 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg&per_page=30
+[26-Mar-2024 06:55:08 UTC] SITE: Request count 10
+[26-Mar-2024 06:55:08 UTC] SITE: Importing request 1 ..
+[26-Mar-2024 06:55:08 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=1&page-builder=gutenberg
+[26-Mar-2024 06:55:08 UTC] SITE: Storing in option ast-block-templates-sites-1
+[26-Mar-2024 06:55:08 UTC] SITE: Completed request 1
+[26-Mar-2024 06:55:08 UTC] SITE: Importing request 2 ..
+[26-Mar-2024 06:55:08 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=2&page-builder=gutenberg
+[26-Mar-2024 06:55:08 UTC] SITE: Storing in option ast-block-templates-sites-2
+[26-Mar-2024 06:55:08 UTC] SITE: Completed request 2
+[26-Mar-2024 06:55:08 UTC] SITE: Importing request 3 ..
+[26-Mar-2024 06:55:08 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=3&page-builder=gutenberg
+[26-Mar-2024 06:55:08 UTC] SITE: Storing in option ast-block-templates-sites-3
+[26-Mar-2024 06:55:08 UTC] SITE: Completed request 3
+[26-Mar-2024 06:55:08 UTC] SITE: Importing request 4 ..
+[26-Mar-2024 06:55:08 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=4&page-builder=gutenberg
+[26-Mar-2024 06:55:09 UTC] SITE: Storing in option ast-block-templates-sites-4
+[26-Mar-2024 06:55:09 UTC] SITE: Completed request 4
+[26-Mar-2024 06:55:09 UTC] SITE: Importing request 5 ..
+[26-Mar-2024 06:55:09 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=5&page-builder=gutenberg
+[26-Mar-2024 06:55:09 UTC] SITE: Storing in option ast-block-templates-sites-5
+[26-Mar-2024 06:55:09 UTC] SITE: Completed request 5
+[26-Mar-2024 06:55:09 UTC] SITE: Importing request 6 ..
+[26-Mar-2024 06:55:09 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=6&page-builder=gutenberg
+[26-Mar-2024 06:55:09 UTC] SITE: Storing in option ast-block-templates-sites-6
+[26-Mar-2024 06:55:09 UTC] SITE: Completed request 6
+[26-Mar-2024 06:55:09 UTC] SITE: Importing request 7 ..
+[26-Mar-2024 06:55:09 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=7&page-builder=gutenberg
+[26-Mar-2024 06:55:09 UTC] SITE: Storing in option ast-block-templates-sites-7
+[26-Mar-2024 06:55:09 UTC] SITE: Completed request 7
+[26-Mar-2024 06:55:09 UTC] SITE: Importing request 8 ..
+[26-Mar-2024 06:55:09 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=8&page-builder=gutenberg
+[26-Mar-2024 06:55:10 UTC] SITE: Storing in option ast-block-templates-sites-8
+[26-Mar-2024 06:55:10 UTC] SITE: Completed request 8
+[26-Mar-2024 06:55:10 UTC] SITE: Importing request 9 ..
+[26-Mar-2024 06:55:10 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=9&page-builder=gutenberg
+[26-Mar-2024 06:55:10 UTC] SITE: Storing in option ast-block-templates-sites-9
+[26-Mar-2024 06:55:10 UTC] SITE: Completed request 9
+[26-Mar-2024 06:55:10 UTC] SITE: Importing request 10 ..
+[26-Mar-2024 06:55:10 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=10&page-builder=gutenberg
+[26-Mar-2024 06:55:10 UTC] SITE: Storing in option ast-block-templates-sites-10
+[26-Mar-2024 06:55:10 UTC] SITE: Completed request 10
+[26-Mar-2024 06:55:10 UTC] Sync process for Gutenberg Blocks is done.
+[26-Mar-2024 06:55:10 UTC] BLOCK: Getting Server Custimizer CSS
+[26-Mar-2024 06:55:10 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/get-customizer-css
+[26-Mar-2024 06:55:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[26-Mar-2024 07:12:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[26-Mar-2024 07:27:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[26-Mar-2024 08:45:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[26-Mar-2024 08:48:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[26-Mar-2024 08:53:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[26-Mar-2024 08:58:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[26-Mar-2024 10:08:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[26-Mar-2024 11:02:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[26-Mar-2024 11:38:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[26-Mar-2024 13:29:35 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[26-Mar-2024 15:12:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[26-Mar-2024 15:46:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[26-Mar-2024 18:31:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[26-Mar-2024 18:37:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[26-Mar-2024 20:43:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[26-Mar-2024 23:39:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[27-Mar-2024 06:20:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[27-Mar-2024 06:52:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[27-Mar-2024 06:53:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[27-Mar-2024 06:58:30 UTC] Sync process for Gutenberg Blocks has started.
+[27-Mar-2024 06:58:30 UTC] CATEGORY: Storing in option ast-block-templates-categories
+[27-Mar-2024 06:58:30 UTC] BLOCK: Requests count 7
+[27-Mar-2024 06:58:30 UTC] BLOCK: Importing request 1 ..
+[27-Mar-2024 06:58:30 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=1&wireframe=yes
+[27-Mar-2024 06:58:30 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[27-Mar-2024 06:58:30 UTC] BLOCK: Completed request 1
+[27-Mar-2024 06:58:30 UTC] BLOCK: Importing request 2 ..
+[27-Mar-2024 06:58:30 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=2&wireframe=yes
+[27-Mar-2024 06:58:31 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[27-Mar-2024 06:58:31 UTC] BLOCK: Completed request 2
+[27-Mar-2024 06:58:31 UTC] BLOCK: Importing request 3 ..
+[27-Mar-2024 06:58:31 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=3&wireframe=yes
+[27-Mar-2024 06:58:31 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[27-Mar-2024 06:58:31 UTC] BLOCK: Completed request 3
+[27-Mar-2024 06:58:31 UTC] BLOCK: Importing request 4 ..
+[27-Mar-2024 06:58:31 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=4&wireframe=yes
+[27-Mar-2024 06:58:32 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[27-Mar-2024 06:58:32 UTC] BLOCK: Completed request 4
+[27-Mar-2024 06:58:32 UTC] BLOCK: Importing request 5 ..
+[27-Mar-2024 06:58:32 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=5&wireframe=yes
+[27-Mar-2024 06:58:32 UTC] BLOCK: Storing in option ast-block-templates-blocks-5
+[27-Mar-2024 06:58:32 UTC] BLOCK: Completed request 5
+[27-Mar-2024 06:58:32 UTC] BLOCK: Importing request 6 ..
+[27-Mar-2024 06:58:32 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=6&wireframe=yes
+[27-Mar-2024 06:58:32 UTC] BLOCK: Storing in option ast-block-templates-blocks-6
+[27-Mar-2024 06:58:32 UTC] BLOCK: Completed request 6
+[27-Mar-2024 06:58:32 UTC] BLOCK: Importing request 7 ..
+[27-Mar-2024 06:58:32 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=7&wireframe=yes
+[27-Mar-2024 06:58:33 UTC] BLOCK: Storing in option ast-block-templates-blocks-7
+[27-Mar-2024 06:58:33 UTC] BLOCK: Completed request 7
+[27-Mar-2024 06:58:33 UTC] SITE: Getting Total Sites
+[27-Mar-2024 06:58:33 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg&per_page=30
+[27-Mar-2024 06:58:33 UTC] SITE: Request count 10
+[27-Mar-2024 06:58:33 UTC] SITE: Importing request 1 ..
+[27-Mar-2024 06:58:33 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=1&page-builder=gutenberg
+[27-Mar-2024 06:58:33 UTC] SITE: Storing in option ast-block-templates-sites-1
+[27-Mar-2024 06:58:33 UTC] SITE: Completed request 1
+[27-Mar-2024 06:58:33 UTC] SITE: Importing request 2 ..
+[27-Mar-2024 06:58:33 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=2&page-builder=gutenberg
+[27-Mar-2024 06:58:34 UTC] SITE: Storing in option ast-block-templates-sites-2
+[27-Mar-2024 06:58:34 UTC] SITE: Completed request 2
+[27-Mar-2024 06:58:34 UTC] SITE: Importing request 3 ..
+[27-Mar-2024 06:58:34 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=3&page-builder=gutenberg
+[27-Mar-2024 06:58:34 UTC] SITE: Storing in option ast-block-templates-sites-3
+[27-Mar-2024 06:58:34 UTC] SITE: Completed request 3
+[27-Mar-2024 06:58:34 UTC] SITE: Importing request 4 ..
+[27-Mar-2024 06:58:34 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=4&page-builder=gutenberg
+[27-Mar-2024 06:58:34 UTC] SITE: Storing in option ast-block-templates-sites-4
+[27-Mar-2024 06:58:34 UTC] SITE: Completed request 4
+[27-Mar-2024 06:58:34 UTC] SITE: Importing request 5 ..
+[27-Mar-2024 06:58:34 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=5&page-builder=gutenberg
+[27-Mar-2024 06:58:34 UTC] SITE: Storing in option ast-block-templates-sites-5
+[27-Mar-2024 06:58:34 UTC] SITE: Completed request 5
+[27-Mar-2024 06:58:34 UTC] SITE: Importing request 6 ..
+[27-Mar-2024 06:58:34 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=6&page-builder=gutenberg
+[27-Mar-2024 06:58:35 UTC] SITE: Storing in option ast-block-templates-sites-6
+[27-Mar-2024 06:58:35 UTC] SITE: Completed request 6
+[27-Mar-2024 06:58:35 UTC] SITE: Importing request 7 ..
+[27-Mar-2024 06:58:35 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=7&page-builder=gutenberg
+[27-Mar-2024 06:58:35 UTC] SITE: Storing in option ast-block-templates-sites-7
+[27-Mar-2024 06:58:35 UTC] SITE: Completed request 7
+[27-Mar-2024 06:58:35 UTC] SITE: Importing request 8 ..
+[27-Mar-2024 06:58:35 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=8&page-builder=gutenberg
+[27-Mar-2024 06:58:35 UTC] SITE: Storing in option ast-block-templates-sites-8
+[27-Mar-2024 06:58:35 UTC] SITE: Completed request 8
+[27-Mar-2024 06:58:35 UTC] SITE: Importing request 9 ..
+[27-Mar-2024 06:58:35 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=9&page-builder=gutenberg
+[27-Mar-2024 06:58:35 UTC] SITE: Storing in option ast-block-templates-sites-9
+[27-Mar-2024 06:58:35 UTC] SITE: Completed request 9
+[27-Mar-2024 06:58:35 UTC] SITE: Importing request 10 ..
+[27-Mar-2024 06:58:35 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=10&page-builder=gutenberg
+[27-Mar-2024 06:58:36 UTC] SITE: Storing in option ast-block-templates-sites-10
+[27-Mar-2024 06:58:36 UTC] SITE: Completed request 10
+[27-Mar-2024 06:58:36 UTC] Sync process for Gutenberg Blocks is done.
+[27-Mar-2024 06:58:36 UTC] BLOCK: Getting Server Custimizer CSS
+[27-Mar-2024 06:58:36 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/get-customizer-css
+[27-Mar-2024 06:59:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[27-Mar-2024 07:13:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 617
+[27-Mar-2024 07:45:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[27-Mar-2024 10:40:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[27-Mar-2024 10:43:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[27-Mar-2024 10:48:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[27-Mar-2024 10:53:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[27-Mar-2024 14:25:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[27-Mar-2024 15:42:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[27-Mar-2024 15:54:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[27-Mar-2024 17:36:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[27-Mar-2024 19:54:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[28-Mar-2024 00:43:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[28-Mar-2024 06:52:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[28-Mar-2024 06:55:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[28-Mar-2024 08:33:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[28-Mar-2024 11:55:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[28-Mar-2024 11:56:18 UTC] Sync process for Gutenberg Blocks has started.
+[28-Mar-2024 11:56:18 UTC] CATEGORY: Storing in option ast-block-templates-categories
+[28-Mar-2024 11:56:18 UTC] BLOCK: Requests count 7
+[28-Mar-2024 11:56:18 UTC] BLOCK: Importing request 1 ..
+[28-Mar-2024 11:56:18 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=1&wireframe=yes
+[28-Mar-2024 11:56:19 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[28-Mar-2024 11:56:19 UTC] BLOCK: Completed request 1
+[28-Mar-2024 11:56:19 UTC] BLOCK: Importing request 2 ..
+[28-Mar-2024 11:56:19 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=2&wireframe=yes
+[28-Mar-2024 11:56:19 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[28-Mar-2024 11:56:19 UTC] BLOCK: Completed request 2
+[28-Mar-2024 11:56:19 UTC] BLOCK: Importing request 3 ..
+[28-Mar-2024 11:56:19 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=3&wireframe=yes
+[28-Mar-2024 11:56:19 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[28-Mar-2024 11:56:19 UTC] BLOCK: Completed request 3
+[28-Mar-2024 11:56:19 UTC] BLOCK: Importing request 4 ..
+[28-Mar-2024 11:56:19 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=4&wireframe=yes
+[28-Mar-2024 11:56:19 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[28-Mar-2024 11:56:19 UTC] BLOCK: Completed request 4
+[28-Mar-2024 11:56:19 UTC] BLOCK: Importing request 5 ..
+[28-Mar-2024 11:56:19 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=5&wireframe=yes
+[28-Mar-2024 11:56:20 UTC] BLOCK: Storing in option ast-block-templates-blocks-5
+[28-Mar-2024 11:56:20 UTC] BLOCK: Completed request 5
+[28-Mar-2024 11:56:20 UTC] BLOCK: Importing request 6 ..
+[28-Mar-2024 11:56:20 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=6&wireframe=yes
+[28-Mar-2024 11:56:20 UTC] BLOCK: Storing in option ast-block-templates-blocks-6
+[28-Mar-2024 11:56:20 UTC] BLOCK: Completed request 6
+[28-Mar-2024 11:56:20 UTC] BLOCK: Importing request 7 ..
+[28-Mar-2024 11:56:20 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=7&wireframe=yes
+[28-Mar-2024 11:56:20 UTC] BLOCK: Storing in option ast-block-templates-blocks-7
+[28-Mar-2024 11:56:20 UTC] BLOCK: Completed request 7
+[28-Mar-2024 11:56:20 UTC] SITE: Getting Total Sites
+[28-Mar-2024 11:56:20 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg&per_page=30
+[28-Mar-2024 11:56:21 UTC] SITE: Request count 10
+[28-Mar-2024 11:56:21 UTC] SITE: Importing request 1 ..
+[28-Mar-2024 11:56:21 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=1&page-builder=gutenberg
+[28-Mar-2024 11:56:21 UTC] SITE: Storing in option ast-block-templates-sites-1
+[28-Mar-2024 11:56:21 UTC] SITE: Completed request 1
+[28-Mar-2024 11:56:21 UTC] SITE: Importing request 2 ..
+[28-Mar-2024 11:56:21 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=2&page-builder=gutenberg
+[28-Mar-2024 11:56:21 UTC] SITE: Storing in option ast-block-templates-sites-2
+[28-Mar-2024 11:56:21 UTC] SITE: Completed request 2
+[28-Mar-2024 11:56:21 UTC] SITE: Importing request 3 ..
+[28-Mar-2024 11:56:21 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=3&page-builder=gutenberg
+[28-Mar-2024 11:56:21 UTC] SITE: Storing in option ast-block-templates-sites-3
+[28-Mar-2024 11:56:21 UTC] SITE: Completed request 3
+[28-Mar-2024 11:56:21 UTC] SITE: Importing request 4 ..
+[28-Mar-2024 11:56:21 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=4&page-builder=gutenberg
+[28-Mar-2024 11:56:22 UTC] SITE: Storing in option ast-block-templates-sites-4
+[28-Mar-2024 11:56:22 UTC] SITE: Completed request 4
+[28-Mar-2024 11:56:22 UTC] SITE: Importing request 5 ..
+[28-Mar-2024 11:56:22 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=5&page-builder=gutenberg
+[28-Mar-2024 11:56:22 UTC] SITE: Storing in option ast-block-templates-sites-5
+[28-Mar-2024 11:56:22 UTC] SITE: Completed request 5
+[28-Mar-2024 11:56:22 UTC] SITE: Importing request 6 ..
+[28-Mar-2024 11:56:22 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=6&page-builder=gutenberg
+[28-Mar-2024 11:56:22 UTC] SITE: Storing in option ast-block-templates-sites-6
+[28-Mar-2024 11:56:22 UTC] SITE: Completed request 6
+[28-Mar-2024 11:56:22 UTC] SITE: Importing request 7 ..
+[28-Mar-2024 11:56:22 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=7&page-builder=gutenberg
+[28-Mar-2024 11:56:22 UTC] SITE: Storing in option ast-block-templates-sites-7
+[28-Mar-2024 11:56:22 UTC] SITE: Completed request 7
+[28-Mar-2024 11:56:22 UTC] SITE: Importing request 8 ..
+[28-Mar-2024 11:56:22 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=8&page-builder=gutenberg
+[28-Mar-2024 11:56:23 UTC] SITE: Storing in option ast-block-templates-sites-8
+[28-Mar-2024 11:56:23 UTC] SITE: Completed request 8
+[28-Mar-2024 11:56:23 UTC] SITE: Importing request 9 ..
+[28-Mar-2024 11:56:23 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=9&page-builder=gutenberg
+[28-Mar-2024 11:56:23 UTC] SITE: Storing in option ast-block-templates-sites-9
+[28-Mar-2024 11:56:23 UTC] SITE: Completed request 9
+[28-Mar-2024 11:56:23 UTC] SITE: Importing request 10 ..
+[28-Mar-2024 11:56:23 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=10&page-builder=gutenberg
+[28-Mar-2024 11:56:23 UTC] SITE: Storing in option ast-block-templates-sites-10
+[28-Mar-2024 11:56:23 UTC] SITE: Completed request 10
+[28-Mar-2024 11:56:23 UTC] Sync process for Gutenberg Blocks is done.
+[28-Mar-2024 11:56:23 UTC] BLOCK: Getting Server Custimizer CSS
+[28-Mar-2024 11:56:23 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/get-customizer-css
+[28-Mar-2024 11:58:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[28-Mar-2024 12:03:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[28-Mar-2024 12:08:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[28-Mar-2024 12:13:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[28-Mar-2024 21:04:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[29-Mar-2024 02:29:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[29-Mar-2024 02:40:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[29-Mar-2024 02:46:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[29-Mar-2024 03:00:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[29-Mar-2024 03:04:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[29-Mar-2024 03:23:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 162
+[29-Mar-2024 04:36:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[29-Mar-2024 04:38:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[29-Mar-2024 06:20:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[29-Mar-2024 06:52:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[29-Mar-2024 06:54:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[29-Mar-2024 07:50:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[29-Mar-2024 09:59:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[29-Mar-2024 10:03:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[29-Mar-2024 16:30:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[29-Mar-2024 19:15:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[29-Mar-2024 22:49:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wpdb.php on line 1283
+[30-Mar-2024 03:39:58 UTC] Sync process for Gutenberg Blocks has started.
+[30-Mar-2024 03:39:58 UTC] CATEGORY: Storing in option ast-block-templates-categories
+[30-Mar-2024 03:39:58 UTC] BLOCK: Requests count 7
+[30-Mar-2024 03:39:58 UTC] BLOCK: Importing request 1 ..
+[30-Mar-2024 03:39:58 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=1&wireframe=yes
+[30-Mar-2024 03:39:58 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[30-Mar-2024 03:39:58 UTC] BLOCK: Completed request 1
+[30-Mar-2024 03:39:58 UTC] BLOCK: Importing request 2 ..
+[30-Mar-2024 03:39:58 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=2&wireframe=yes
+[30-Mar-2024 03:39:59 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[30-Mar-2024 03:39:59 UTC] BLOCK: Completed request 2
+[30-Mar-2024 03:39:59 UTC] BLOCK: Importing request 3 ..
+[30-Mar-2024 03:39:59 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=3&wireframe=yes
+[30-Mar-2024 03:39:59 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[30-Mar-2024 03:39:59 UTC] BLOCK: Completed request 3
+[30-Mar-2024 03:39:59 UTC] BLOCK: Importing request 4 ..
+[30-Mar-2024 03:39:59 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=4&wireframe=yes
+[30-Mar-2024 03:39:59 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[30-Mar-2024 03:39:59 UTC] BLOCK: Completed request 4
+[30-Mar-2024 03:39:59 UTC] BLOCK: Importing request 5 ..
+[30-Mar-2024 03:39:59 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=5&wireframe=yes
+[30-Mar-2024 03:39:59 UTC] BLOCK: Storing in option ast-block-templates-blocks-5
+[30-Mar-2024 03:39:59 UTC] BLOCK: Completed request 5
+[30-Mar-2024 03:39:59 UTC] BLOCK: Importing request 6 ..
+[30-Mar-2024 03:39:59 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=6&wireframe=yes
+[30-Mar-2024 03:40:00 UTC] BLOCK: Storing in option ast-block-templates-blocks-6
+[30-Mar-2024 03:40:00 UTC] BLOCK: Completed request 6
+[30-Mar-2024 03:40:00 UTC] BLOCK: Importing request 7 ..
+[30-Mar-2024 03:40:00 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=7&wireframe=yes
+[30-Mar-2024 03:40:00 UTC] BLOCK: Storing in option ast-block-templates-blocks-7
+[30-Mar-2024 03:40:00 UTC] BLOCK: Completed request 7
+[30-Mar-2024 03:40:00 UTC] SITE: Getting Total Sites
+[30-Mar-2024 03:40:00 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg&per_page=30
+[30-Mar-2024 03:40:00 UTC] SITE: Request count 10
+[30-Mar-2024 03:40:00 UTC] SITE: Importing request 1 ..
+[30-Mar-2024 03:40:00 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=1&page-builder=gutenberg
+[30-Mar-2024 03:40:00 UTC] SITE: Storing in option ast-block-templates-sites-1
+[30-Mar-2024 03:40:00 UTC] SITE: Completed request 1
+[30-Mar-2024 03:40:00 UTC] SITE: Importing request 2 ..
+[30-Mar-2024 03:40:00 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=2&page-builder=gutenberg
+[30-Mar-2024 03:40:01 UTC] SITE: Storing in option ast-block-templates-sites-2
+[30-Mar-2024 03:40:01 UTC] SITE: Completed request 2
+[30-Mar-2024 03:40:01 UTC] SITE: Importing request 3 ..
+[30-Mar-2024 03:40:01 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=3&page-builder=gutenberg
+[30-Mar-2024 03:40:01 UTC] SITE: Storing in option ast-block-templates-sites-3
+[30-Mar-2024 03:40:01 UTC] SITE: Completed request 3
+[30-Mar-2024 03:40:01 UTC] SITE: Importing request 4 ..
+[30-Mar-2024 03:40:01 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=4&page-builder=gutenberg
+[30-Mar-2024 03:40:01 UTC] SITE: Storing in option ast-block-templates-sites-4
+[30-Mar-2024 03:40:01 UTC] SITE: Completed request 4
+[30-Mar-2024 03:40:01 UTC] SITE: Importing request 5 ..
+[30-Mar-2024 03:40:01 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=5&page-builder=gutenberg
+[30-Mar-2024 03:40:01 UTC] SITE: Storing in option ast-block-templates-sites-5
+[30-Mar-2024 03:40:01 UTC] SITE: Completed request 5
+[30-Mar-2024 03:40:01 UTC] SITE: Importing request 6 ..
+[30-Mar-2024 03:40:01 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=6&page-builder=gutenberg
+[30-Mar-2024 03:40:02 UTC] SITE: Storing in option ast-block-templates-sites-6
+[30-Mar-2024 03:40:02 UTC] SITE: Completed request 6
+[30-Mar-2024 03:40:02 UTC] SITE: Importing request 7 ..
+[30-Mar-2024 03:40:02 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=7&page-builder=gutenberg
+[30-Mar-2024 03:40:02 UTC] SITE: Storing in option ast-block-templates-sites-7
+[30-Mar-2024 03:40:02 UTC] SITE: Completed request 7
+[30-Mar-2024 03:40:02 UTC] SITE: Importing request 8 ..
+[30-Mar-2024 03:40:02 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=8&page-builder=gutenberg
+[30-Mar-2024 03:40:02 UTC] SITE: Storing in option ast-block-templates-sites-8
+[30-Mar-2024 03:40:02 UTC] SITE: Completed request 8
+[30-Mar-2024 03:40:02 UTC] SITE: Importing request 9 ..
+[30-Mar-2024 03:40:02 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=9&page-builder=gutenberg
+[30-Mar-2024 03:40:02 UTC] SITE: Storing in option ast-block-templates-sites-9
+[30-Mar-2024 03:40:02 UTC] SITE: Completed request 9
+[30-Mar-2024 03:40:02 UTC] SITE: Importing request 10 ..
+[30-Mar-2024 03:40:02 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=10&page-builder=gutenberg
+[30-Mar-2024 03:40:03 UTC] SITE: Storing in option ast-block-templates-sites-10
+[30-Mar-2024 03:40:03 UTC] SITE: Completed request 10
+[30-Mar-2024 03:40:03 UTC] Sync process for Gutenberg Blocks is done.
+[30-Mar-2024 03:40:03 UTC] BLOCK: Getting Server Custimizer CSS
+[30-Mar-2024 03:40:03 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/get-customizer-css
+[30-Mar-2024 03:40:37 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[30-Mar-2024 03:43:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[30-Mar-2024 06:52:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 617
+[30-Mar-2024 06:54:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[30-Mar-2024 23:06:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[31-Mar-2024 01:09:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[31-Mar-2024 06:26:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[31-Mar-2024 06:52:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[31-Mar-2024 06:55:32 UTC] Blocks are up to date.
+[31-Mar-2024 06:56:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[31-Mar-2024 10:41:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[31-Mar-2024 10:43:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[31-Mar-2024 11:37:26 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[31-Mar-2024 14:04:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[31-Mar-2024 14:27:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[31-Mar-2024 14:47:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[31-Mar-2024 15:02:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 617
+[31-Mar-2024 16:03:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[31-Mar-2024 17:33:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 617
+[31-Mar-2024 20:13:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[31-Mar-2024 21:25:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[31-Mar-2024 23:21:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[01-Apr-2024 00:01:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 00:06:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[01-Apr-2024 00:27:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[01-Apr-2024 00:51:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 00:54:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 01:12:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 01:25:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[01-Apr-2024 01:32:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 01:48:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[01-Apr-2024 03:44:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 04:44:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 04:48:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 05:32:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 05:33:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[01-Apr-2024 06:52:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 06:56:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[01-Apr-2024 07:29:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[01-Apr-2024 07:45:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[01-Apr-2024 09:15:43 UTC] Blocks are up to date.
+[01-Apr-2024 09:16:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 10:46:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[01-Apr-2024 10:49:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[01-Apr-2024 10:53:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 11:15:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 12:12:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 13:30:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 13:34:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 13:40:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 13:44:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[01-Apr-2024 13:48:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 13:55:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 14:40:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[01-Apr-2024 14:56:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 15:02:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[01-Apr-2024 15:36:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[01-Apr-2024 16:10:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 16:45:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 16:50:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[01-Apr-2024 17:11:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[01-Apr-2024 17:30:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[01-Apr-2024 17:46:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[01-Apr-2024 17:57:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[01-Apr-2024 18:04:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[01-Apr-2024 18:21:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[02-Apr-2024 06:52:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[02-Apr-2024 06:56:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 162
+[02-Apr-2024 07:56:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[02-Apr-2024 09:25:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[02-Apr-2024 10:03:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[02-Apr-2024 10:07:37 UTC] Sync process for Gutenberg Blocks has started.
+[02-Apr-2024 10:07:37 UTC] CATEGORY: Storing in option ast-block-templates-categories
+[02-Apr-2024 10:07:37 UTC] BLOCK: Requests count 7
+[02-Apr-2024 10:07:37 UTC] BLOCK: Importing request 1 ..
+[02-Apr-2024 10:07:37 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=1&wireframe=yes
+[02-Apr-2024 10:07:37 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[02-Apr-2024 10:07:37 UTC] BLOCK: Completed request 1
+[02-Apr-2024 10:07:37 UTC] BLOCK: Importing request 2 ..
+[02-Apr-2024 10:07:37 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=2&wireframe=yes
+[02-Apr-2024 10:07:37 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[02-Apr-2024 10:07:37 UTC] BLOCK: Completed request 2
+[02-Apr-2024 10:07:37 UTC] BLOCK: Importing request 3 ..
+[02-Apr-2024 10:07:37 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=3&wireframe=yes
+[02-Apr-2024 10:07:37 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[02-Apr-2024 10:07:37 UTC] BLOCK: Completed request 3
+[02-Apr-2024 10:07:37 UTC] BLOCK: Importing request 4 ..
+[02-Apr-2024 10:07:37 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=4&wireframe=yes
+[02-Apr-2024 10:07:38 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[02-Apr-2024 10:07:38 UTC] BLOCK: Completed request 4
+[02-Apr-2024 10:07:38 UTC] BLOCK: Importing request 5 ..
+[02-Apr-2024 10:07:38 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=5&wireframe=yes
+[02-Apr-2024 10:07:38 UTC] BLOCK: Storing in option ast-block-templates-blocks-5
+[02-Apr-2024 10:07:38 UTC] BLOCK: Completed request 5
+[02-Apr-2024 10:07:38 UTC] BLOCK: Importing request 6 ..
+[02-Apr-2024 10:07:38 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=6&wireframe=yes
+[02-Apr-2024 10:07:38 UTC] BLOCK: Storing in option ast-block-templates-blocks-6
+[02-Apr-2024 10:07:38 UTC] BLOCK: Completed request 6
+[02-Apr-2024 10:07:38 UTC] BLOCK: Importing request 7 ..
+[02-Apr-2024 10:07:38 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=7&wireframe=yes
+[02-Apr-2024 10:07:39 UTC] BLOCK: Storing in option ast-block-templates-blocks-7
+[02-Apr-2024 10:07:39 UTC] BLOCK: Completed request 7
+[02-Apr-2024 10:07:39 UTC] SITE: Getting Total Sites
+[02-Apr-2024 10:07:39 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg&per_page=30
+[02-Apr-2024 10:07:39 UTC] SITE: Request count 10
+[02-Apr-2024 10:07:39 UTC] SITE: Importing request 1 ..
+[02-Apr-2024 10:07:39 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=1&page-builder=gutenberg
+[02-Apr-2024 10:07:39 UTC] SITE: Storing in option ast-block-templates-sites-1
+[02-Apr-2024 10:07:39 UTC] SITE: Completed request 1
+[02-Apr-2024 10:07:39 UTC] SITE: Importing request 2 ..
+[02-Apr-2024 10:07:39 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=2&page-builder=gutenberg
+[02-Apr-2024 10:07:39 UTC] SITE: Storing in option ast-block-templates-sites-2
+[02-Apr-2024 10:07:39 UTC] SITE: Completed request 2
+[02-Apr-2024 10:07:39 UTC] SITE: Importing request 3 ..
+[02-Apr-2024 10:07:39 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=3&page-builder=gutenberg
+[02-Apr-2024 10:07:40 UTC] SITE: Storing in option ast-block-templates-sites-3
+[02-Apr-2024 10:07:40 UTC] SITE: Completed request 3
+[02-Apr-2024 10:07:40 UTC] SITE: Importing request 4 ..
+[02-Apr-2024 10:07:40 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=4&page-builder=gutenberg
+[02-Apr-2024 10:07:40 UTC] SITE: Storing in option ast-block-templates-sites-4
+[02-Apr-2024 10:07:40 UTC] SITE: Completed request 4
+[02-Apr-2024 10:07:40 UTC] SITE: Importing request 5 ..
+[02-Apr-2024 10:07:40 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=5&page-builder=gutenberg
+[02-Apr-2024 10:07:40 UTC] SITE: Storing in option ast-block-templates-sites-5
+[02-Apr-2024 10:07:40 UTC] SITE: Completed request 5
+[02-Apr-2024 10:07:40 UTC] SITE: Importing request 6 ..
+[02-Apr-2024 10:07:40 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=6&page-builder=gutenberg
+[02-Apr-2024 10:07:40 UTC] SITE: Storing in option ast-block-templates-sites-6
+[02-Apr-2024 10:07:40 UTC] SITE: Completed request 6
+[02-Apr-2024 10:07:40 UTC] SITE: Importing request 7 ..
+[02-Apr-2024 10:07:40 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=7&page-builder=gutenberg
+[02-Apr-2024 10:07:41 UTC] SITE: Storing in option ast-block-templates-sites-7
+[02-Apr-2024 10:07:41 UTC] SITE: Completed request 7
+[02-Apr-2024 10:07:41 UTC] SITE: Importing request 8 ..
+[02-Apr-2024 10:07:41 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=8&page-builder=gutenberg
+[02-Apr-2024 10:07:41 UTC] SITE: Storing in option ast-block-templates-sites-8
+[02-Apr-2024 10:07:41 UTC] SITE: Completed request 8
+[02-Apr-2024 10:07:41 UTC] SITE: Importing request 9 ..
+[02-Apr-2024 10:07:41 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=9&page-builder=gutenberg
+[02-Apr-2024 10:07:41 UTC] SITE: Storing in option ast-block-templates-sites-9
+[02-Apr-2024 10:07:41 UTC] SITE: Completed request 9
+[02-Apr-2024 10:07:41 UTC] SITE: Importing request 10 ..
+[02-Apr-2024 10:07:41 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=10&page-builder=gutenberg
+[02-Apr-2024 10:07:41 UTC] SITE: Storing in option ast-block-templates-sites-10
+[02-Apr-2024 10:07:41 UTC] SITE: Completed request 10
+[02-Apr-2024 10:07:41 UTC] Sync process for Gutenberg Blocks is done.
+[02-Apr-2024 10:07:41 UTC] BLOCK: Getting Server Custimizer CSS
+[02-Apr-2024 10:07:41 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/get-customizer-css
+[02-Apr-2024 10:08:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[02-Apr-2024 10:36:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[02-Apr-2024 11:05:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[02-Apr-2024 11:25:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[02-Apr-2024 11:28:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 162
+[02-Apr-2024 11:39:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[02-Apr-2024 11:46:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[02-Apr-2024 12:02:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[02-Apr-2024 14:31:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[02-Apr-2024 14:34:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[02-Apr-2024 22:34:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[02-Apr-2024 23:29:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[03-Apr-2024 00:41:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 00:51:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[03-Apr-2024 03:52:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 03:53:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 05:26:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 05:30:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 438
+[03-Apr-2024 05:59:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 06:09:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 436
+[03-Apr-2024 06:13:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 06:29:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 06:50:37 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 07:01:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 07:05:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 447
+[03-Apr-2024 07:18:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[03-Apr-2024 07:25:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[03-Apr-2024 07:38:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 10:16:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 10:18:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[03-Apr-2024 10:18:48 UTC] Sync process for Gutenberg Blocks has started.
+[03-Apr-2024 10:18:48 UTC] CATEGORY: Storing in option ast-block-templates-categories
+[03-Apr-2024 10:18:48 UTC] BLOCK: Requests count 7
+[03-Apr-2024 10:18:48 UTC] BLOCK: Importing request 1 ..
+[03-Apr-2024 10:18:48 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=1&wireframe=yes
+[03-Apr-2024 10:18:48 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[03-Apr-2024 10:18:48 UTC] BLOCK: Completed request 1
+[03-Apr-2024 10:18:48 UTC] BLOCK: Importing request 2 ..
+[03-Apr-2024 10:18:48 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=2&wireframe=yes
+[03-Apr-2024 10:18:49 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[03-Apr-2024 10:18:49 UTC] BLOCK: Completed request 2
+[03-Apr-2024 10:18:49 UTC] BLOCK: Importing request 3 ..
+[03-Apr-2024 10:18:49 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=3&wireframe=yes
+[03-Apr-2024 10:18:49 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[03-Apr-2024 10:18:49 UTC] BLOCK: Completed request 3
+[03-Apr-2024 10:18:49 UTC] BLOCK: Importing request 4 ..
+[03-Apr-2024 10:18:49 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=4&wireframe=yes
+[03-Apr-2024 10:18:49 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[03-Apr-2024 10:18:49 UTC] BLOCK: Completed request 4
+[03-Apr-2024 10:18:49 UTC] BLOCK: Importing request 5 ..
+[03-Apr-2024 10:18:49 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=5&wireframe=yes
+[03-Apr-2024 10:18:49 UTC] BLOCK: Storing in option ast-block-templates-blocks-5
+[03-Apr-2024 10:18:50 UTC] BLOCK: Completed request 5
+[03-Apr-2024 10:18:50 UTC] BLOCK: Importing request 6 ..
+[03-Apr-2024 10:18:50 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=6&wireframe=yes
+[03-Apr-2024 10:18:50 UTC] BLOCK: Storing in option ast-block-templates-blocks-6
+[03-Apr-2024 10:18:50 UTC] BLOCK: Completed request 6
+[03-Apr-2024 10:18:50 UTC] BLOCK: Importing request 7 ..
+[03-Apr-2024 10:18:50 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=7&wireframe=yes
+[03-Apr-2024 10:18:50 UTC] BLOCK: Storing in option ast-block-templates-blocks-7
+[03-Apr-2024 10:18:50 UTC] BLOCK: Completed request 7
+[03-Apr-2024 10:18:50 UTC] SITE: Getting Total Sites
+[03-Apr-2024 10:18:50 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg&per_page=30
+[03-Apr-2024 10:18:50 UTC] SITE: Request count 10
+[03-Apr-2024 10:18:50 UTC] SITE: Importing request 1 ..
+[03-Apr-2024 10:18:50 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=1&page-builder=gutenberg
+[03-Apr-2024 10:18:51 UTC] SITE: Storing in option ast-block-templates-sites-1
+[03-Apr-2024 10:18:51 UTC] SITE: Completed request 1
+[03-Apr-2024 10:18:51 UTC] SITE: Importing request 2 ..
+[03-Apr-2024 10:18:51 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=2&page-builder=gutenberg
+[03-Apr-2024 10:18:51 UTC] SITE: Storing in option ast-block-templates-sites-2
+[03-Apr-2024 10:18:51 UTC] SITE: Completed request 2
+[03-Apr-2024 10:18:51 UTC] SITE: Importing request 3 ..
+[03-Apr-2024 10:18:51 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=3&page-builder=gutenberg
+[03-Apr-2024 10:18:51 UTC] SITE: Storing in option ast-block-templates-sites-3
+[03-Apr-2024 10:18:51 UTC] SITE: Completed request 3
+[03-Apr-2024 10:18:51 UTC] SITE: Importing request 4 ..
+[03-Apr-2024 10:18:51 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=4&page-builder=gutenberg
+[03-Apr-2024 10:18:51 UTC] SITE: Storing in option ast-block-templates-sites-4
+[03-Apr-2024 10:18:51 UTC] SITE: Completed request 4
+[03-Apr-2024 10:18:51 UTC] SITE: Importing request 5 ..
+[03-Apr-2024 10:18:51 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=5&page-builder=gutenberg
+[03-Apr-2024 10:18:52 UTC] SITE: Storing in option ast-block-templates-sites-5
+[03-Apr-2024 10:18:52 UTC] SITE: Completed request 5
+[03-Apr-2024 10:18:52 UTC] SITE: Importing request 6 ..
+[03-Apr-2024 10:18:52 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=6&page-builder=gutenberg
+[03-Apr-2024 10:18:52 UTC] SITE: Storing in option ast-block-templates-sites-6
+[03-Apr-2024 10:18:52 UTC] SITE: Completed request 6
+[03-Apr-2024 10:18:52 UTC] SITE: Importing request 7 ..
+[03-Apr-2024 10:18:52 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=7&page-builder=gutenberg
+[03-Apr-2024 10:18:52 UTC] SITE: Storing in option ast-block-templates-sites-7
+[03-Apr-2024 10:18:52 UTC] SITE: Completed request 7
+[03-Apr-2024 10:18:52 UTC] SITE: Importing request 8 ..
+[03-Apr-2024 10:18:52 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=8&page-builder=gutenberg
+[03-Apr-2024 10:18:52 UTC] SITE: Storing in option ast-block-templates-sites-8
+[03-Apr-2024 10:18:52 UTC] SITE: Completed request 8
+[03-Apr-2024 10:18:52 UTC] SITE: Importing request 9 ..
+[03-Apr-2024 10:18:52 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=9&page-builder=gutenberg
+[03-Apr-2024 10:18:53 UTC] SITE: Storing in option ast-block-templates-sites-9
+[03-Apr-2024 10:18:53 UTC] SITE: Completed request 9
+[03-Apr-2024 10:18:53 UTC] SITE: Importing request 10 ..
+[03-Apr-2024 10:18:53 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=10&page-builder=gutenberg
+[03-Apr-2024 10:18:53 UTC] SITE: Storing in option ast-block-templates-sites-10
+[03-Apr-2024 10:18:53 UTC] SITE: Completed request 10
+[03-Apr-2024 10:18:53 UTC] Sync process for Gutenberg Blocks is done.
+[03-Apr-2024 10:18:53 UTC] BLOCK: Getting Server Custimizer CSS
+[03-Apr-2024 10:18:53 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/get-customizer-css
+[03-Apr-2024 10:19:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 447
+[03-Apr-2024 10:24:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 12:57:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 447
+[03-Apr-2024 12:58:37 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 447
+[03-Apr-2024 13:04:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[03-Apr-2024 13:08:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[03-Apr-2024 13:19:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[03-Apr-2024 13:25:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 13:28:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 13:34:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 624
+[03-Apr-2024 13:38:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[03-Apr-2024 13:44:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[03-Apr-2024 14:31:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 16:21:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 16:23:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[03-Apr-2024 16:28:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 16:31:06 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM dvaq6u5_options WHERE option_name = 'wc_pending_batch_processes' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->__call, call_user_func_array, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->maybe_reset_state, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->is_enqueued, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->get_enqueued_processors, get_option
+[03-Apr-2024 16:31:06 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM dvaq6u5_options WHERE option_name = 'woocommerce_hpos_legacy_data_cleanup_in_progress' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->__call, call_user_func_array, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->maybe_reset_state, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->is_flag_set, get_option
+[03-Apr-2024 16:34:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 913
+[03-Apr-2024 16:38:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 447
+[03-Apr-2024 16:43:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 16:48:35 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 16:54:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[03-Apr-2024 17:09:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 17:13:26 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 913
+[03-Apr-2024 17:19:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 17:23:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 913
+[03-Apr-2024 17:52:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[03-Apr-2024 17:58:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[03-Apr-2024 18:03:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 18:08:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[03-Apr-2024 18:13:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[03-Apr-2024 21:11:26 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 447
+[03-Apr-2024 22:57:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[03-Apr-2024 23:20:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[04-Apr-2024 02:58:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 624
+[04-Apr-2024 03:01:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[04-Apr-2024 06:39:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[04-Apr-2024 06:49:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[04-Apr-2024 06:55:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[04-Apr-2024 07:00:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[04-Apr-2024 07:44:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[04-Apr-2024 10:32:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[04-Apr-2024 11:26:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[04-Apr-2024 11:33:14 UTC] Sync process for Gutenberg Blocks has started.
+[04-Apr-2024 11:33:14 UTC] CATEGORY: Storing in option ast-block-templates-categories
+[04-Apr-2024 11:33:14 UTC] BLOCK: Requests count 7
+[04-Apr-2024 11:33:14 UTC] BLOCK: Importing request 1 ..
+[04-Apr-2024 11:33:14 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=1&wireframe=yes
+[04-Apr-2024 11:33:14 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[04-Apr-2024 11:33:14 UTC] BLOCK: Completed request 1
+[04-Apr-2024 11:33:14 UTC] BLOCK: Importing request 2 ..
+[04-Apr-2024 11:33:14 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=2&wireframe=yes
+[04-Apr-2024 11:33:15 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[04-Apr-2024 11:33:15 UTC] BLOCK: Completed request 2
+[04-Apr-2024 11:33:15 UTC] BLOCK: Importing request 3 ..
+[04-Apr-2024 11:33:15 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=3&wireframe=yes
+[04-Apr-2024 11:33:15 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[04-Apr-2024 11:33:15 UTC] BLOCK: Completed request 3
+[04-Apr-2024 11:33:15 UTC] BLOCK: Importing request 4 ..
+[04-Apr-2024 11:33:15 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=4&wireframe=yes
+[04-Apr-2024 11:33:16 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[04-Apr-2024 11:33:16 UTC] BLOCK: Completed request 4
+[04-Apr-2024 11:33:16 UTC] BLOCK: Importing request 5 ..
+[04-Apr-2024 11:33:16 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=5&wireframe=yes
+[04-Apr-2024 11:33:16 UTC] BLOCK: Storing in option ast-block-templates-blocks-5
+[04-Apr-2024 11:33:16 UTC] BLOCK: Completed request 5
+[04-Apr-2024 11:33:16 UTC] BLOCK: Importing request 6 ..
+[04-Apr-2024 11:33:16 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=6&wireframe=yes
+[04-Apr-2024 11:33:16 UTC] BLOCK: Storing in option ast-block-templates-blocks-6
+[04-Apr-2024 11:33:16 UTC] BLOCK: Completed request 6
+[04-Apr-2024 11:33:16 UTC] BLOCK: Importing request 7 ..
+[04-Apr-2024 11:33:16 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=7&wireframe=yes
+[04-Apr-2024 11:33:17 UTC] BLOCK: Storing in option ast-block-templates-blocks-7
+[04-Apr-2024 11:33:17 UTC] BLOCK: Completed request 7
+[04-Apr-2024 11:33:17 UTC] SITE: Getting Total Sites
+[04-Apr-2024 11:33:17 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg&per_page=30
+[04-Apr-2024 11:33:17 UTC] SITE: Request count 10
+[04-Apr-2024 11:33:17 UTC] SITE: Importing request 1 ..
+[04-Apr-2024 11:33:17 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=1&page-builder=gutenberg
+[04-Apr-2024 11:33:17 UTC] SITE: Storing in option ast-block-templates-sites-1
+[04-Apr-2024 11:33:17 UTC] SITE: Completed request 1
+[04-Apr-2024 11:33:17 UTC] SITE: Importing request 2 ..
+[04-Apr-2024 11:33:17 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=2&page-builder=gutenberg
+[04-Apr-2024 11:33:17 UTC] SITE: Storing in option ast-block-templates-sites-2
+[04-Apr-2024 11:33:17 UTC] SITE: Completed request 2
+[04-Apr-2024 11:33:17 UTC] SITE: Importing request 3 ..
+[04-Apr-2024 11:33:17 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=3&page-builder=gutenberg
+[04-Apr-2024 11:33:18 UTC] SITE: Storing in option ast-block-templates-sites-3
+[04-Apr-2024 11:33:18 UTC] SITE: Completed request 3
+[04-Apr-2024 11:33:18 UTC] SITE: Importing request 4 ..
+[04-Apr-2024 11:33:18 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=4&page-builder=gutenberg
+[04-Apr-2024 11:33:18 UTC] SITE: Storing in option ast-block-templates-sites-4
+[04-Apr-2024 11:33:18 UTC] SITE: Completed request 4
+[04-Apr-2024 11:33:18 UTC] SITE: Importing request 5 ..
+[04-Apr-2024 11:33:18 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=5&page-builder=gutenberg
+[04-Apr-2024 11:33:18 UTC] SITE: Storing in option ast-block-templates-sites-5
+[04-Apr-2024 11:33:18 UTC] SITE: Completed request 5
+[04-Apr-2024 11:33:18 UTC] SITE: Importing request 6 ..
+[04-Apr-2024 11:33:18 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=6&page-builder=gutenberg
+[04-Apr-2024 11:33:18 UTC] SITE: Storing in option ast-block-templates-sites-6
+[04-Apr-2024 11:33:18 UTC] SITE: Completed request 6
+[04-Apr-2024 11:33:18 UTC] SITE: Importing request 7 ..
+[04-Apr-2024 11:33:18 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=7&page-builder=gutenberg
+[04-Apr-2024 11:33:19 UTC] SITE: Storing in option ast-block-templates-sites-7
+[04-Apr-2024 11:33:19 UTC] SITE: Completed request 7
+[04-Apr-2024 11:33:19 UTC] SITE: Importing request 8 ..
+[04-Apr-2024 11:33:19 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=8&page-builder=gutenberg
+[04-Apr-2024 11:33:19 UTC] SITE: Storing in option ast-block-templates-sites-8
+[04-Apr-2024 11:33:19 UTC] SITE: Completed request 8
+[04-Apr-2024 11:33:19 UTC] SITE: Importing request 9 ..
+[04-Apr-2024 11:33:19 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=9&page-builder=gutenberg
+[04-Apr-2024 11:33:19 UTC] SITE: Storing in option ast-block-templates-sites-9
+[04-Apr-2024 11:33:19 UTC] SITE: Completed request 9
+[04-Apr-2024 11:33:19 UTC] SITE: Importing request 10 ..
+[04-Apr-2024 11:33:19 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=10&page-builder=gutenberg
+[04-Apr-2024 11:33:19 UTC] SITE: Storing in option ast-block-templates-sites-10
+[04-Apr-2024 11:33:19 UTC] SITE: Completed request 10
+[04-Apr-2024 11:33:19 UTC] Sync process for Gutenberg Blocks is done.
+[04-Apr-2024 11:33:19 UTC] BLOCK: Getting Server Custimizer CSS
+[04-Apr-2024 11:33:19 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/get-customizer-css
+[04-Apr-2024 11:33:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[04-Apr-2024 11:38:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[04-Apr-2024 11:43:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[04-Apr-2024 13:30:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[04-Apr-2024 13:52:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 447
+[04-Apr-2024 15:12:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 447
+[04-Apr-2024 17:11:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[05-Apr-2024 02:40:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 447
+[05-Apr-2024 02:57:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[05-Apr-2024 03:03:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[05-Apr-2024 05:06:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[05-Apr-2024 05:24:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[05-Apr-2024 06:19:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[05-Apr-2024 06:56:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[05-Apr-2024 06:58:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[05-Apr-2024 07:04:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[05-Apr-2024 07:25:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[05-Apr-2024 08:28:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[05-Apr-2024 08:40:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 447
+[05-Apr-2024 08:52:37 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[05-Apr-2024 08:54:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[05-Apr-2024 09:57:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[05-Apr-2024 10:22:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[05-Apr-2024 10:29:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[05-Apr-2024 11:16:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[05-Apr-2024 11:35:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[05-Apr-2024 11:44:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 447
+[05-Apr-2024 17:05:36 UTC] Sync process for Gutenberg Blocks has started.
+[05-Apr-2024 17:05:36 UTC] CATEGORY: Storing in option ast-block-templates-categories
+[05-Apr-2024 17:05:36 UTC] BLOCK: Requests count 7
+[05-Apr-2024 17:05:36 UTC] BLOCK: Importing request 1 ..
+[05-Apr-2024 17:05:36 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=1&wireframe=yes
+[05-Apr-2024 17:05:36 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[05-Apr-2024 17:05:37 UTC] BLOCK: Completed request 1
+[05-Apr-2024 17:05:37 UTC] BLOCK: Importing request 2 ..
+[05-Apr-2024 17:05:37 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=2&wireframe=yes
+[05-Apr-2024 17:05:37 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[05-Apr-2024 17:05:37 UTC] BLOCK: Completed request 2
+[05-Apr-2024 17:05:37 UTC] BLOCK: Importing request 3 ..
+[05-Apr-2024 17:05:37 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=3&wireframe=yes
+[05-Apr-2024 17:05:37 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[05-Apr-2024 17:05:37 UTC] BLOCK: Completed request 3
+[05-Apr-2024 17:05:37 UTC] BLOCK: Importing request 4 ..
+[05-Apr-2024 17:05:37 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=4&wireframe=yes
+[05-Apr-2024 17:05:37 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[05-Apr-2024 17:05:37 UTC] BLOCK: Completed request 4
+[05-Apr-2024 17:05:37 UTC] BLOCK: Importing request 5 ..
+[05-Apr-2024 17:05:37 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=5&wireframe=yes
+[05-Apr-2024 17:05:38 UTC] BLOCK: Storing in option ast-block-templates-blocks-5
+[05-Apr-2024 17:05:38 UTC] BLOCK: Completed request 5
+[05-Apr-2024 17:05:38 UTC] BLOCK: Importing request 6 ..
+[05-Apr-2024 17:05:38 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=6&wireframe=yes
+[05-Apr-2024 17:05:38 UTC] BLOCK: Storing in option ast-block-templates-blocks-6
+[05-Apr-2024 17:05:38 UTC] BLOCK: Completed request 6
+[05-Apr-2024 17:05:38 UTC] BLOCK: Importing request 7 ..
+[05-Apr-2024 17:05:38 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=7&wireframe=yes
+[05-Apr-2024 17:05:38 UTC] BLOCK: Storing in option ast-block-templates-blocks-7
+[05-Apr-2024 17:05:38 UTC] BLOCK: Completed request 7
+[05-Apr-2024 17:05:38 UTC] SITE: Getting Total Sites
+[05-Apr-2024 17:05:38 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg&per_page=30
+[05-Apr-2024 17:05:39 UTC] SITE: Request count 10
+[05-Apr-2024 17:05:39 UTC] SITE: Importing request 1 ..
+[05-Apr-2024 17:05:39 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=1&page-builder=gutenberg
+[05-Apr-2024 17:05:39 UTC] SITE: Storing in option ast-block-templates-sites-1
+[05-Apr-2024 17:05:39 UTC] SITE: Completed request 1
+[05-Apr-2024 17:05:39 UTC] SITE: Importing request 2 ..
+[05-Apr-2024 17:05:39 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=2&page-builder=gutenberg
+[05-Apr-2024 17:05:39 UTC] SITE: Storing in option ast-block-templates-sites-2
+[05-Apr-2024 17:05:39 UTC] SITE: Completed request 2
+[05-Apr-2024 17:05:39 UTC] SITE: Importing request 3 ..
+[05-Apr-2024 17:05:39 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=3&page-builder=gutenberg
+[05-Apr-2024 17:05:39 UTC] SITE: Storing in option ast-block-templates-sites-3
+[05-Apr-2024 17:05:39 UTC] SITE: Completed request 3
+[05-Apr-2024 17:05:39 UTC] SITE: Importing request 4 ..
+[05-Apr-2024 17:05:39 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=4&page-builder=gutenberg
+[05-Apr-2024 17:05:40 UTC] SITE: Storing in option ast-block-templates-sites-4
+[05-Apr-2024 17:05:40 UTC] SITE: Completed request 4
+[05-Apr-2024 17:05:40 UTC] SITE: Importing request 5 ..
+[05-Apr-2024 17:05:40 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=5&page-builder=gutenberg
+[05-Apr-2024 17:05:40 UTC] SITE: Storing in option ast-block-templates-sites-5
+[05-Apr-2024 17:05:40 UTC] SITE: Completed request 5
+[05-Apr-2024 17:05:40 UTC] SITE: Importing request 6 ..
+[05-Apr-2024 17:05:40 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=6&page-builder=gutenberg
+[05-Apr-2024 17:05:40 UTC] SITE: Storing in option ast-block-templates-sites-6
+[05-Apr-2024 17:05:40 UTC] SITE: Completed request 6
+[05-Apr-2024 17:05:40 UTC] SITE: Importing request 7 ..
+[05-Apr-2024 17:05:40 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=7&page-builder=gutenberg
+[05-Apr-2024 17:05:40 UTC] SITE: Storing in option ast-block-templates-sites-7
+[05-Apr-2024 17:05:40 UTC] SITE: Completed request 7
+[05-Apr-2024 17:05:40 UTC] SITE: Importing request 8 ..
+[05-Apr-2024 17:05:40 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=8&page-builder=gutenberg
+[05-Apr-2024 17:05:41 UTC] SITE: Storing in option ast-block-templates-sites-8
+[05-Apr-2024 17:05:41 UTC] SITE: Completed request 8
+[05-Apr-2024 17:05:41 UTC] SITE: Importing request 9 ..
+[05-Apr-2024 17:05:41 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=9&page-builder=gutenberg
+[05-Apr-2024 17:05:41 UTC] SITE: Storing in option ast-block-templates-sites-9
+[05-Apr-2024 17:05:41 UTC] SITE: Completed request 9
+[05-Apr-2024 17:05:41 UTC] SITE: Importing request 10 ..
+[05-Apr-2024 17:05:41 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=10&page-builder=gutenberg
+[05-Apr-2024 17:05:41 UTC] SITE: Storing in option ast-block-templates-sites-10
+[05-Apr-2024 17:05:41 UTC] SITE: Completed request 10
+[05-Apr-2024 17:05:41 UTC] Sync process for Gutenberg Blocks is done.
+[05-Apr-2024 17:05:41 UTC] BLOCK: Getting Server Custimizer CSS
+[05-Apr-2024 17:05:41 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/get-customizer-css
+[05-Apr-2024 17:06:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[05-Apr-2024 19:21:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[05-Apr-2024 22:23:35 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[06-Apr-2024 01:20:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[06-Apr-2024 02:12:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[06-Apr-2024 02:48:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 913
+[06-Apr-2024 03:31:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[06-Apr-2024 05:53:26 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 447
+[06-Apr-2024 06:52:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 624
+[06-Apr-2024 07:00:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 913
+[06-Apr-2024 07:08:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 447
+[06-Apr-2024 07:15:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[06-Apr-2024 07:29:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[06-Apr-2024 10:14:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 913
+[06-Apr-2024 10:46:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[06-Apr-2024 12:22:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[06-Apr-2024 13:23:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[06-Apr-2024 19:11:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[06-Apr-2024 22:58:11 UTC] Blocks are up to date.
+[06-Apr-2024 22:58:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[07-Apr-2024 02:40:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 624
+[07-Apr-2024 04:47:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[07-Apr-2024 06:53:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[07-Apr-2024 07:00:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[07-Apr-2024 08:32:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[07-Apr-2024 13:56:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[07-Apr-2024 13:58:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[07-Apr-2024 13:59:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 460
+[07-Apr-2024 14:03:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 447
+[07-Apr-2024 15:22:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
+[07-Apr-2024 15:25:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/hurpcomu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 449
